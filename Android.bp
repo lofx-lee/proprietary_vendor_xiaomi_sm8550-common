@@ -4815,6 +4815,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hardware.campostproc@1.0",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so"],
+            shared_libs: ["android.hardware.camera.common@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libdpmqmihal",
     owner: "xiaomi",
     strip: {
@@ -12710,6 +12727,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libstfactory-vendor.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -21196,6 +21214,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/nfc_nci.nqx.default.hw.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.nfc@1.0",
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",

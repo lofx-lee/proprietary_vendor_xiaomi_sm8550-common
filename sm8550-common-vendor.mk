@@ -963,6 +963,7 @@ PRODUCT_PACKAGES += \
     vendor.display.postproc@1.0 \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms@2.0 \
+    vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
