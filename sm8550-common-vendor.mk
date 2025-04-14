@@ -614,6 +614,8 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdlbdsservice \
+    libdlbpreg \
+    libswspatializer_ext \
     libdolbyottcameracontrol \
     libdpmqmihal \
     libdpps \
