@@ -507,6 +507,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-impl \
     vulkan.adreno \
     lib-imscommon \
+    lib-imsdcservice \
     lib-imsdpl \
     lib-imsqimf \
     lib-imsrcsservice \
@@ -614,7 +615,6 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils \
     libdlbdsservice \
     libdlbpreg \
-    libswspatializer_ext \
     libdolbyottcameracontrol \
     libdpmqmihal \
     libdpps \
@@ -877,6 +877,7 @@ PRODUCT_PACKAGES += \
     libssd \
     libstandbyfeature \
     libstfactory-vendor \
+    libswspatializer_ext \
     libsynergy_loc_api \
     libsys_info_cache \
     libsystem_health_mon \
@@ -1308,6 +1309,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2audio@1.0-service \
     vendor.qti.secure_element@1.2-service \
     vendor.xiaomi.modem.qms@1.0-service \
+    ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
     init.class_main \
