@@ -1200,6 +1200,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     TrustedUIService \
     com.qualcomm.qti.gpudrivers.kalama.api33 \
+    IFAAService \
+    SoterService \
     uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
